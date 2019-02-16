@@ -1,0 +1,57 @@
+﻿unit gestionnaire;
+
+interface
+
+type
+	heros = record   //type permettant de stocker toutes les variables concernant le personnage
+		nom : string;
+		vie : Integer;
+		pierre : Integer;
+		fer : integer;
+    bois : integer;
+		force : integer;
+    arme : integer;
+    armure : integer;
+    argent : integer;
+    mort : boolean;
+
+	end;
+
+  monster = record //type permettent de stocker toutes les variables concernant les monstres
+    nom : string;
+    vie : integer;
+    force : integer;
+    defense : integer;
+    arme : integer;
+    end;
+
+
+  stock = record  //type permattant de stocker les variables concernant le coffre
+    pierre : integer;
+    fer : integer;
+    bois : integer;
+    end;
+
+var
+  personnage : heros; //variable contenant les informations sur le joueur
+  monstre : monster; //variable contenant les informations sur le monstre
+  coffre : stock; //variable contenant les informations sur le coffre
+
+
+procedure statPerso(var personnage : heros); //procédure permettant d'afficher les statistiques du joueur hors combat
+
+
+Implementation
+
+procedure statPerso(var personnage : heros);  //procédure permettant d'afficher les statistiques du joueur hors combat
+
+begin
+	writeln('Point de vie : ',personnage.vie); //sa vie
+	writeln('Point d''armure : ',personnage.armure); //son armure
+	writeln('Point de force : ',personnage.arme); //ses points donnés par son arme
+	writeln('Argent : ', personnage.argent); //son argent
+  writeln('');
+end;
+end.
+
+

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <PathDelim Value="\"/>
+    <General>
+      <Flags>
+        <MainUnitHasCreateFormStatements Value="False"/>
+        <MainUnitHasTitleStatement Value="False"/>
+      </Flags>
+      <SessionStorage Value="InProjectDir"/>
+      <MainUnit Value="0"/>
+      <Title Value="ecran"/>
+      <UseAppBundle Value="False"/>
+      <ResourceType Value="res"/>
+    </General>
+    <i18n>
+      <EnableI18N LFM="False"/>
+    </i18n>
+    <VersionInfo>
+      <StringTable ProductVersion=""/>
+    </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+      </local>
+    </RunParams>
+    <Units Count="10">
+      <Unit0>
+        <Filename Value="ecran.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ecran"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="gestionnaire.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="gestionnaire"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="debuterjeu.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="debuterJeu"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="unitemine.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uniteMine"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="unitforet.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Unitforet"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="unitmarchand.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="unitMarchand"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="croisementlieu.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="croisementLieu"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="gestionecran.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="GestionEcran"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="house.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="house"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="unitcoffre.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="unitCoffre"/>
+      </Unit9>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="ecran"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Other>
+      <CompilerMessages>
+        <MsgFileName Value=""/>
+      </CompilerMessages>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

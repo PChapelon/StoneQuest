@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2014/12/19 16:38:25.413,=E:\jeu minimal\croisementlieu.pas</Transaction>
+    <Transaction>2014/12/19 16:38:25.435,=E:\jeu minimal\debuterjeu.pas</Transaction>
+    <Transaction>2014/12/19 16:38:25.458,=E:\jeu minimal\gestionecran.pas</Transaction>
+    <Transaction>2014/12/19 16:38:25.481,=E:\jeu minimal\gestionnaire.pas</Transaction>
+    <Transaction>2014/12/19 16:38:25.497,=E:\jeu minimal\house.pas</Transaction>
+    <Transaction>2014/12/19 16:38:25.514,=E:\jeu minimal\unitcoffre.pas</Transaction>
+    <Transaction>2014/12/19 16:38:25.541,=E:\jeu minimal\unitemine.pas</Transaction>
+    <Transaction>2014/12/19 16:38:25.568,=E:\jeu minimal\unitforet.pas</Transaction>
+    <Transaction>2014/12/19 16:38:25.598,=E:\jeu minimal\unitmarchand.pas</Transaction>
+    <Transaction>2014/12/19 16:43:26.202,E:\jeu minimal\StoneQuest.dproj=\\iut21\Ressources\Users\Etudiants\IQ\IQ-1\nd304367\RAD Studio\Projets\Project3.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

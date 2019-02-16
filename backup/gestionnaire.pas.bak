@@ -1,0 +1,59 @@
+unit gestionnaire;
+
+{$mode objfpc}{$H+}
+
+interface
+
+type
+	heros = record   //type permettant de stocker toutes les variables concernant le personnage
+		nom : string;
+		vie : Integer;
+		pierre : Integer;
+		fer : integer;
+                bois : integer;
+		force : integer;
+                arme : integer;
+                armure : integer;
+                argent : integer;
+                mort : boolean;
+
+	end;
+
+        monster = record //type permettent de stocker toutes les variables concernant les monstres
+                nom : string;
+                vie : integer;
+                force : integer;
+                defense : integer;
+                arme : integer;
+        end;
+
+
+        stock = record  //type permattant de stocker les variables concernant le coffre
+                pierre : integer;
+                fer : integer;
+                bois : integer;
+        end;
+
+var
+  personnage : heros;
+  monstre : monster;
+  coffre : stock;
+
+
+procedure statPerso(var personnage : heros);
+
+
+Implementation
+
+procedure statPerso(var personnage : heros);
+
+begin
+	writeln('Point de vie : ',personnage.vie);
+	writeln('Point d''armure : ',personnage.armure);
+	writeln('Point de force : ',personnage.arme);
+	writeln('Argent : ', personnage.argent);
+        writeln('');
+end;
+end.
+
+
